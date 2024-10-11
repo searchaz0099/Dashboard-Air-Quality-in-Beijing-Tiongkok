@@ -67,7 +67,7 @@ col1, col2, col3 = st.columns([4, 3, 4])
 
 with col1:
     top_station_name = byStation_PM['station'].iloc[0]
-    st.metric('Daerah dengan PM 2.5 terburuk', value=top_station_name)
+    st.metric('Daerah dengan PM 2.5 terbaik', value=top_station_name)
 
 with col2:
     st.markdown(
@@ -77,7 +77,7 @@ with col2:
 
 with col3:
     top_station_name = byStation_PM['station'].iloc[-1]
-    st.metric('Daerah dengan PM 2.5 terbaik', value=top_station_name)
+    st.metric('Daerah dengan PM 2.5 terburuk', value=top_station_name)
 
 
 # Indeks PM setiap provinsi per tahun
