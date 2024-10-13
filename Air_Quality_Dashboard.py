@@ -242,11 +242,5 @@ plt.tight_layout()
 st.pyplot(fig)
 
 
-
-
-
-
-
 st.title("Peta Kualitas Udara di Beijing")
-st.components.v1.html(open('folium_map_geospatial.html', 'r').read(), height=500)
-
+st.components.v1.html(open('folium_map_geospatial_minimalist.html', 'r').read(), height=500)
