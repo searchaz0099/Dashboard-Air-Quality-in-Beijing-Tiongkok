@@ -196,4 +196,4 @@ wrapt==1.16.0
 xyzservices==2024.9.0
 yarg==0.1.9
 yfinance==0.2.43
-
+pip == 24.2
