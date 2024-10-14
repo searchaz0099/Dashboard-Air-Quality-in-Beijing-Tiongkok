@@ -198,7 +198,4 @@ wrapt==1.16.0
 xyzservices==2024.9.0
 yarg==0.1.9
 yfinance==0.2.43
-=======
-matplotlib==3.9.0
-python == 3.12.2
->>>>>>> 8dcd29d83b2b0133d341ec49eaa246ae83eb43ca
+
